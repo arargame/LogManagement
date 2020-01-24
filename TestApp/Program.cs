@@ -27,6 +27,7 @@ namespace TestApp
 
             Console.WriteLine(LogManager.Relationships.ToString());
 
+
             var logs = LogManager.GetLogsByEntity(to.Id.ToString());
         }
 
